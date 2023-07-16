@@ -12,6 +12,9 @@ public class UIRegister : UIScene
     public TMP_InputField _inputEmail;
     public TMP_InputField _inputPass;
     public TMP_InputField _inputRePass;
+
+    [Header("Notice Text")]
+    public TMP_Text _noticeText;
     [Header("Button")]
     public Button _btnBack;
     public Button _bntRegister;
@@ -24,7 +27,7 @@ public class UIRegister : UIScene
         _bntRegister.onClick.RemoveAllListeners();
         _bntRegister.onClick.AddListener(() => 
         {
-            Debug.Log("Register");
+            _gameManager._authManager.RegisterButton(_inputEmail.text, _inputPass.text,_inputRePass.text, _inputName.text);
         });
 
         _btnBack.onClick.RemoveAllListeners();
@@ -33,5 +36,27 @@ public class UIRegister : UIScene
             HideUI();
             _gameManager._uIManager._uILogin.ShowUI();
         });
+    }
+
+    public void Notice(string value, bool isWarning)
+    {
+        _noticeText.GetComponent<TMP_Text>().enabled = true;
+
+        if (isWarning)
+        {
+            _noticeText.color = Color.red;
+        }
+        else
+        {
+            _noticeText.color = Color.green;
+        }
+        _noticeText.text = value;
+        StartCoroutine(TimeHideNotice());
+    }
+
+    private IEnumerator TimeHideNotice()
+    {
+        yield return new WaitForSeconds(1.5f);
+        _noticeText.GetComponent<TMP_Text>().enabled = false;
     }
 }
