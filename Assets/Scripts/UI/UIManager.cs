@@ -9,6 +9,8 @@ public class UIManager : MonoBehaviour
     public UIListButton _uiListButton;
     public UILogin _uILogin;
     public UIRegister _uIRegister;
+    public UIUserData _uiUserData;
+    public UIScore _uIScore;
 
     public void Init(GameManager gameManager)
     {
@@ -17,13 +19,18 @@ public class UIManager : MonoBehaviour
         _uiListButton.Init(_gameManager);
         _uILogin.Init(_gameManager);
         _uIRegister.Init(_gameManager);
+        _uiUserData.Init(_gameManager);
+        _uIScore.Init(_gameManager);
         FirstUI();
     }
 
     private void FirstUI()
     {
-        _uiListButton.ShowUI();
         _uILogin.HideUI();
         _uIRegister.HideUI();
+        _uiUserData.HideUI();
+        _uIScore.HideUI();
+        _uiListButton.ShowUI();
+        
     }
 }

@@ -10,6 +10,7 @@ public class UIListButton : UIScene
 
     [Header("FireBase")]
     public Button _bntLoginFireBase;
+    public Button _bntScoreBoard;
     public void Init(GameManager gameManager)
     {
         _gameManager = gameManager;
@@ -18,6 +19,12 @@ public class UIListButton : UIScene
         {
             _gameManager._uIManager._uILogin.ShowUI();
             HideUI();
+        });
+
+        _bntScoreBoard.onClick.AddListener(() => 
+        {
+            HideUI();
+            _gameManager._uIManager._uIScore.ShowUI();
         });
     }
 

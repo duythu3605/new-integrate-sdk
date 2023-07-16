@@ -3,44 +3,38 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using System;
 
-public class UILogin : UIScene
+public class UIRegister : UIScene
 {
     private GameManager _gameManager;
-
-    [Header("Box Login")]
+    [Header("Input")]
+    public TMP_InputField _inputName;
     public TMP_InputField _inputEmail;
     public TMP_InputField _inputPass;
+    public TMP_InputField _inputRePass;
+
     [Header("Notice Text")]
     public TMP_Text _noticeText;
     [Header("Button")]
-    public Button _btnLogin;
-    public Button _btnRegister;
     public Button _btnBack;
+    public Button _bntRegister;
 
     public void Init(GameManager gameManager)
     {
         _gameManager = gameManager;
 
-        _btnLogin.onClick.RemoveAllListeners();
-        _btnLogin.onClick.AddListener(() => 
-        {
-            _gameManager._authManager.LoginButton(_inputEmail.text,_inputPass.text);
-        });
 
-        _btnRegister.onClick.RemoveAllListeners();
-        _btnRegister.onClick.AddListener(() => 
+        _bntRegister.onClick.RemoveAllListeners();
+        _bntRegister.onClick.AddListener(() => 
         {
-            HideUI();
-            _gameManager._uIManager._uIRegister.ShowUI();
+            _gameManager._firebaseManager.RegisterButton(_inputEmail.text, _inputPass.text,_inputRePass.text, _inputName.text);
         });
 
         _btnBack.onClick.RemoveAllListeners();
         _btnBack.onClick.AddListener(() => 
         {
             HideUI();
-            _gameManager._uIManager._uiListButton.ShowUI();
+            _gameManager._uIManager._uILogin.ShowUI();
         });
     }
 
@@ -64,5 +58,13 @@ public class UILogin : UIScene
     {
         yield return new WaitForSeconds(1.5f);
         _noticeText.GetComponent<TMP_Text>().enabled = false;
+    }
+
+    public void ClearRegisterFeilds()
+    {
+        _inputName.text = "";
+        _inputEmail.text = "";
+        _inputPass.text = "";
+        _inputRePass.text = "";
     }
 }
