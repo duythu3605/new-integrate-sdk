@@ -14,6 +14,7 @@ public class UIManager : MonoBehaviour
     public UIBanner _uIBanner;
     public UIRewardVideo _uiRewardVideo;
     public UIInterstitial _uIInterstitial;
+    public UIFaceBook _uiFaceBook;
 
     public void Init(GameManager gameManager)
     {
@@ -25,6 +26,7 @@ public class UIManager : MonoBehaviour
         _uIBanner.Init(gameManager);
         _uiRewardVideo.Init(gameManager);
         _uIInterstitial.Init(gameManager);
+        _uiFaceBook.Init(gameManager);
 
     }
 
