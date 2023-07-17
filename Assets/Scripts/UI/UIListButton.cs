@@ -10,7 +10,12 @@ public class UIListButton : UIScene
 
     [Header("FireBase")]
     public Button _bntLoginFireBase;
-    public Button _bntScoreBoard;
+
+    [Header("Iron Source")]
+    public Button _btnReward;
+    public Button _btnBanner;
+    public Button _btnInterstitial;
+
     public void Init(GameManager gameManager)
     {
         _gameManager = gameManager;
@@ -21,10 +26,20 @@ public class UIListButton : UIScene
             HideUI();
         });
 
-        _bntScoreBoard.onClick.AddListener(() => 
+        _btnReward.onClick.AddListener(() =>
         {
+            _gameManager._uIManager._uiRewardVideo.ShowUI();
             HideUI();
-            _gameManager._uIManager._uIScore.ShowUI();
+        });
+        _btnBanner.onClick.AddListener(() =>
+        {
+            _gameManager._uIManager._uIBanner.ShowUI();
+            HideUI();
+        });
+        _btnInterstitial.onClick.AddListener(() =>
+        {
+            _gameManager._uIManager._uIInterstitial.ShowUI();
+            HideUI();
         });
     }
 
