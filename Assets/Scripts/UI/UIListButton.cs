@@ -16,16 +16,19 @@ public class UIListButton : UIScene
     public Button _btnBanner;
     public Button _btnInterstitial;
 
+    [Header("Facebook")]
+    public Button _btnLoginFb;
+
     public void Init(GameManager gameManager)
     {
         _gameManager = gameManager;
-
+        //---------FireBase-----------
         _bntLoginFireBase.onClick.AddListener(() => 
         {
             _gameManager._uIManager._uILogin.ShowUI();
             HideUI();
         });
-
+        //---------IronSource-----------
         _btnReward.onClick.AddListener(() =>
         {
             _gameManager._uIManager._uiRewardVideo.ShowUI();
@@ -40,6 +43,12 @@ public class UIListButton : UIScene
         {
             _gameManager._uIManager._uIInterstitial.ShowUI();
             HideUI();
+        });
+
+        //---------Facebook-----------
+        _btnLoginFb.onClick.AddListener(() =>
+        {
+            _gameManager._facebookSystem.Login();
         });
     }
 
