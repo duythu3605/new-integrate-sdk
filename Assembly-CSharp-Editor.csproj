@@ -69,6 +69,7 @@
     <Compile Include="Assets\IronSource\Editor\IronSourceMenu.cs" />
     <Compile Include="Assets\IronSource\Editor\IronSourceBuildPostprocessor.cs" />
     <Compile Include="Assets\IronSource\Editor\IronSourceEditorCoroutines.cs" />
+    <Compile Include="Assets\devtodev\Editor\DevToDevPush.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\FacebookSDK\SDK\Editor\iOS\FBUnityInterface.h" />
@@ -84,6 +85,7 @@
     <None Include="Assets\FacebookSDK\SDK\Editor\iOS\FBSDK+Internal.h" />
     <None Include="Assets\ExternalDependencyManager\Editor\1.2.176\Google.IOSResolver.dll" />
     <None Include="Assets\ExternalDependencyManager\Editor\1.2.176\Google.VersionHandlerImpl.dll" />
+    <None Include="Assets\devtodev\Editor\AppDependencies.xml" />
     <None Include="Assets\Firebase\Editor\AuthDependencies.xml" />
     <None Include="Assets\Editor\MediationAdapterDependencies.xml" />
     <None Include="Assets\Firebase\Editor\AppDependencies.xml" />
@@ -95,6 +97,7 @@
     <None Include="Assets\IronSource\Editor\IronSourceSDKDependencies.xml" />
     <None Include="Assets\FacebookSDK\SDK\Editor\iOS\FBUnityUtility.mm" />
     <None Include="Assets\IronSource\Editor\ISUnityAdsAdapterDependencies.xml" />
+    <None Include="Assets\devtodev\Editor\link.xml" />
     <None Include="Assets\IronSource\Editor\ISChartboostAdapterDependencies.xml" />
     <None Include="Assets\IronSource\Editor\ISInMobiAdapterDependencies.xml" />
     <None Include="Assets\Firebase\Editor\DatabaseDependencies.xml" />
@@ -448,6 +451,9 @@
     </Reference>
     <Reference Include="Firebase.Auth">
       <HintPath>Assets\Firebase\Plugins\Firebase.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="devtodev_cross">
+      <HintPath>Assets\Plugins\Standalone\devtodev_cross.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>

@@ -195,6 +195,13 @@
     <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Prefabs\ProductRowPrefab.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\AppEvents.cs" />
+    <Compile Include="Assets\devtodev\Window\DTDEditorModel.cs" />
+    <Compile Include="Assets\devtodev\Window\DevToDevSDK.cs" />
+    <Compile Include="Assets\devtodev\Window\DTDVisualEditorStyles.cs" />
+    <Compile Include="Assets\devtodev\Window\DTDEditorViewModel.cs" />
+    <Compile Include="Assets\devtodev\Window\DTDVisualEditorWindow.cs" />
+    <Compile Include="Assets\devtodev\MacOSHelper.cs" />
+    <Compile Include="Assets\devtodev\WSA\PushActionHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -558,6 +565,9 @@
     </Reference>
     <Reference Include="Firebase.Auth">
       <HintPath>Assets\Firebase\Plugins\Firebase.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="devtodev_cross">
+      <HintPath>Assets\Plugins\Standalone\devtodev_cross.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.20f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

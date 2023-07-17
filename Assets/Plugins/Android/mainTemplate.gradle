@@ -35,6 +35,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 // Android Resolver Dependencies Start
     implementation 'androidx.legacy:legacy-support-v4:1.0.0' // Assets/IronSource/Editor/ISInMobiAdapterDependencies.xml:22
+    implementation 'com.android.installreferrer:installreferrer:2.1' // Assets/devtodev/Editor/AppDependencies.xml:6
     implementation 'com.android.support:appcompat-v7:25.3.1' // Facebook.Unity.Editor.AndroidSupportLibraryResolver.addSupportLibraryDependency
     implementation 'com.android.support:cardview-v7:25.3.1' // Facebook.Unity.Editor.AndroidSupportLibraryResolver.addSupportLibraryDependency
     implementation 'com.android.support:customtabs:25.3.1' // Facebook.Unity.Editor.AndroidSupportLibraryResolver.addSupportLibraryDependency
@@ -46,8 +47,10 @@ dependencies {
     implementation 'com.facebook.android:facebook-login:[16.0,17)' // Assets/FacebookSDK/Plugins/Editor/Dependencies.xml:7
     implementation 'com.facebook.android:facebook-share:[16.0,17)' // Assets/FacebookSDK/Plugins/Editor/Dependencies.xml:8
     implementation 'com.google.android.gms:play-services-ads:22.2.0' // Assets/IronSource/Editor/ISAdMobAdapterDependencies.xml:8
+    // implementation 'com.google.android.gms:play-services-ads-identifier:17.0.0' // Assets/devtodev/Editor/AppDependencies.xml:5
     implementation 'com.google.android.gms:play-services-ads-identifier:18.0.1' // Assets/IronSource/Editor/IronSourceSDKDependencies.xml:17
     implementation 'com.google.android.gms:play-services-base:18.2.0' // Assets/Firebase/Editor/DatabaseDependencies.xml:17
+    // implementation 'com.google.android.gms:play-services-basement:17.5.0' // Assets/devtodev/Editor/AppDependencies.xml:4
     implementation 'com.google.android.gms:play-services-basement:18.1.0' // Assets/IronSource/Editor/IronSourceSDKDependencies.xml:25
     implementation 'com.google.firebase:firebase-analytics:21.3.0' // Assets/Firebase/Editor/DatabaseDependencies.xml:15
     implementation 'com.google.firebase:firebase-app-unity:11.2.0' // Assets/Firebase/Editor/AppDependencies.xml:22
@@ -56,6 +59,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-common:20.3.3' // Assets/Firebase/Editor/AppDependencies.xml:13
     implementation 'com.google.firebase:firebase-database:20.2.2' // Assets/Firebase/Editor/DatabaseDependencies.xml:13
     implementation 'com.google.firebase:firebase-database-unity:11.2.0' // Assets/Firebase/Editor/DatabaseDependencies.xml:22
+    implementation 'com.google.firebase:firebase-messaging:21.0.0' // Assets/devtodev/Editor/AppDependencies.xml:3
     implementation 'com.inmobi.monetization:inmobi-ads:10.1.2' // Assets/IronSource/Editor/ISInMobiAdapterDependencies.xml:15
     implementation 'com.ironsource.adapters:admobadapter:4.3.39' // Assets/IronSource/Editor/ISAdMobAdapterDependencies.xml:16
     implementation 'com.ironsource.adapters:chartboostadapter:4.3.12' // Assets/IronSource/Editor/ISChartboostAdapterDependencies.xml:8
