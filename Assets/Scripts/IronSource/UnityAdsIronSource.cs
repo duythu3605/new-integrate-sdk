@@ -10,6 +10,8 @@ public class UnityAdsIronSource : MonoBehaviour
     {
         _gameManager = gameManager;
         IronSource.Agent.init("1ad977aa5");
+        //IronSource.Agent.init("1ad977aa5", IronSourceAdUnits.REWARDED_VIDEO, IronSourceAdUnits.INTERSTITIAL, IronSourceAdUnits.OFFERWALL, IronSourceAdUnits.BANNER);
+
         IronSource.Agent.validateIntegration();
     }
 
@@ -35,7 +37,7 @@ public class UnityAdsIronSource : MonoBehaviour
 
     public void LoadBannerAd()
     {
-        Debug.Log("LoadBanner");
+        Debug.Log("LoadBanner");    
         IronSource.Agent.loadBanner(IronSourceBannerSize.BANNER, IronSourceBannerPosition.BOTTOM);
 
     }

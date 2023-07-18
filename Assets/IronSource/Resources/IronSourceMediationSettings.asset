@@ -15,7 +15,7 @@ MonoBehaviour:
   AndroidAppKey: 1ad977aa5
   IOSAppKey: 
   EnableIronsourceSDKInitAPI: 1
-  AddIronsourceSkadnetworkID: 0
+  AddIronsourceSkadnetworkID: 1
   DeclareAD_IDPermission: 0
   EnableAdapterDebug: 1
   EnableIntegrationHelper: 1
