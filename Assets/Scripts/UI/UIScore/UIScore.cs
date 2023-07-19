@@ -21,7 +21,7 @@ public class UIScore : UIScene
         _btnBack.onClick.AddListener(() =>
         {
             HideUI();
-            _gameManager._uIManager._uiListButton.ShowUI();
+            _gameManager._firebaseManager.SignOutButton();
         });
     }
 }
