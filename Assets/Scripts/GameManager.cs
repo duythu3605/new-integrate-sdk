@@ -24,6 +24,6 @@ public class GameManager : MonoBehaviour
         _uIManager.Init(this);
         _unityAdsỈonSource.Init(this);
         _firebaseManager.Init(this);        
-       // _facebookSystem.Init(this);
+        _facebookSystem.Init(this);
     }
 }
