@@ -47,7 +47,7 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Package</UnityProjectGenerator>
-    <UnityProjectGeneratorVersion>2.0.17</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorVersion>2.0.18</UnityProjectGeneratorVersion>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>Android:13</UnityBuildTarget>
     <UnityVersion>2021.3.28f1</UnityVersion>
@@ -56,152 +56,152 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\IronSource\Scripts\iOSAgent.cs" />
+    <Compile Include="Assets\devtodev\Window\DevToDevSDK.cs" />
+    <Compile Include="Assets\devtodev\WSA\PushActionHandler.cs" />
+    <Compile Include="Assets\devtodev\Window\DTDVisualEditorStyles.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceEvents.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\LogView.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\InputSystemWarning.cs" />
     <Compile Include="Assets\Scripts\UI\UIManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourcePlacement.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceConstants.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Prefabs\PurchaseRowPrefab.cs" />
+    <Compile Include="Assets\devtodev\MacOSHelper.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsLogsManager.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsA2UNotificationsManager.cs" />
     <Compile Include="Assets\Scripts\UI\UIScore\UIScore.cs" />
     <Compile Include="Assets\Scripts\UI\UIIrronSource\UIRewardVideo.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceBannerAndroid.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IUnityLevelPlayRewardedVideoManual.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\UIInputHelper.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsVirtualGamepadManager.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceSegmentAndroid.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceInterstitialAndroid.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\AppRequests.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IUnityRewardedVideo.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\Scripts\IronSource\UnityAdsIronSource.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceBannerLevelPlayAndroid.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsGraphAPIManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IUnityInterstitial.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceRewardedVideoEvents.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IUnityBanner.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsPurchaseManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\MenuBase.cs" />
+    <Compile Include="Assets\devtodev\Window\DTDEditorViewModel.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\UploadToMediaLibrary.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceUtils.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\SettingsMenu.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceRewardedVideoLevelPlayManualAndroid.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceSegment.cs" />
     <Compile Include="Assets\Scripts\FireBase\FireBaseManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IUnityLevelPlayRewardedVideo.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceRewardedVideoLevelPlayAndroid.cs" />
     <Compile Include="Assets\Scripts\Facebook\FacebookSystem.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsLoginManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IUnityLevelPlayBanner.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\Subscription.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\ConsoleBase.cs" />
     <Compile Include="Assets\Scripts\UI\UIUserData.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceImpressionData.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceError.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\UI\UIIrronSource\UIInterstitial.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\PurchasePage.cs" />
+    <Compile Include="Assets\IronSource\Scripts\AndroidAgent.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceBannerEvents.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\Scripts\UI\UIFaceBook\UIFaceBook.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceInitilizer.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceOfferwallAndroid.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsInitManager.cs" />
     <Compile Include="Assets\Scripts\UI\UILogin\UILogin.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
-    <Compile Include="Assets\Scripts\UI\UIRegister\UIRegister.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
-    <Compile Include="Assets\Scripts\UI\UIScene.cs" />
-    <Compile Include="Assets\Scripts\UI\UIListButton.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\UI\UIScore\ScoreBoard.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
-    <Compile Include="Assets\Scripts\UI\UIIrronSource\UIBanner.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceError.cs" />
-    <Compile Include="Assets\IronSource\Scripts\iOSAgent.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceInterstitialLevelPlayAndroid.cs" />
     <Compile Include="Assets\IronSource\Scripts\IronSourceConfig.cs" />
     <Compile Include="Assets\IronSource\Scripts\IronSourceMediationSettings.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\TournamentsMenu.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\GraphRequest.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IUnityInitialization.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceSegmentAndroid.cs" />
-    <Compile Include="Assets\devtodev\Window\DevToDevSDK.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceInterstitialAndroid.cs" />
     <Compile Include="Assets\IronSource\Scripts\IUnityLevelPlayInterstitial.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\AppRequests.cs" />
-    <Compile Include="Assets\IronSource\Scripts\WaterfallConfiguration.cs" />
-    <Compile Include="Assets\devtodev\WSA\PushActionHandler.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceAdInfo.cs" />
-    <Compile Include="Assets\devtodev\Window\DTDVisualEditorStyles.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\UploadToMediaLibrary.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\AccessTokenMenu.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceEvents.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\AppLinks.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IUnityRewardedVideo.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceUtils.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\PurchasePage.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceRewardedVideoAndroid.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\SavePage.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\SettingsMenu.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\MainMenu.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\LogView.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\Menu.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceRewardedVideoLevelPlayManualAndroid.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceInitializationAndroid.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceBannerLevelPlayAndroid.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSource.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IUnityOfferwall.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\InputSystemWarning.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsGraphAPIManager.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceSegment.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\IronSource\Scripts\IUnitySegment.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IUnityLevelPlayRewardedVideo.cs" />
-    <Compile Include="Assets\IronSource\Scripts\AndroidAgent.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceBannerEvents.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourcePlacement.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsReferralsManager.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceConstants.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Prefabs\PurchaseRowPrefab.cs" />
     <Compile Include="Assets\IronSource\Scripts\UnsupportedPlatformAgent.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\MainPage.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\AdsPage.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceJSON.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IUnityInterstitial.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsFriendsManager.cs" />
-    <Compile Include="Assets\devtodev\Window\DTDEditorModel.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceRewardedVideoLevelPlayAndroid.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\Pay.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsPhysicalGamepadManager.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsShareManager.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsTournamentsManager.cs" />
-    <Compile Include="Assets\devtodev\MacOSHelper.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceRewardedVideoEvents.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsLogsManager.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsA2UNotificationsManager.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceInterstitialEvents.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceIAgent.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsExampleTabsManager.cs" />
-    <Compile Include="Assets\IronSource\Scripts\AdFormat.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceRewardedVideoManualAndroid.cs" />
+    <Compile Include="Assets\Scripts\UI\UIRegister\UIRegister.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\DialogShare.cs" />
     <Compile Include="Assets\IronSource\Scripts\IronSourceImpressionDataAndroid.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceBannerAndroid.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IUnityLevelPlayRewardedVideoManual.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IUnityBanner.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsADSManager.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceInitilizer.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\Utility.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsLoginManager.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IUnityImpressionData.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceOfferwallAndroid.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IUnityLevelPlayBanner.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\LogScroller.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Prefabs\ProductRowPrefab.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsPurchaseManager.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\Subscription.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsSoftKeyboardManager.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\MenuBase.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\UIInputHelper.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\ConsoleBase.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\UIState.cs" />
-    <Compile Include="Assets\devtodev\Window\DTDEditorViewModel.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsVirtualGamepadManager.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsInitManager.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceImpressionData.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+    <Compile Include="Assets\IronSource\Scripts\WaterfallConfiguration.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IUnityOfferwall.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSource.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsReferralsManager.cs" />
+    <Compile Include="Assets\Scripts\UI\UIScene.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\MainPage.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsFriendsManager.cs" />
+    <Compile Include="Assets\Scripts\UI\UIListButton.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsPhysicalGamepadManager.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\UI\UIScore\ScoreBoard.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsADSManager.cs" />
     <Compile Include="Assets\devtodev\Window\DTDVisualEditorWindow.cs" />
     <Compile Include="Assets\IronSource\Scripts\IUnityRewardedVideoManual.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IUnityInitialization.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceAdInfo.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\Menu.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceInitializationAndroid.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceIAgent.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsExampleTabsManager.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceRewardedVideoManualAndroid.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\Utility.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IUnityImpressionData.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\LogScroller.cs" />
     <Compile Include="Assets\IronSource\Scripts\IronSourceEventsDispatcher.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\GraphRequest.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\AppLinks.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\AccessTokenMenu.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceRewardedVideoAndroid.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\SavePage.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\MainMenu.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceJSON.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\AdsPage.cs" />
+    <Compile Include="Assets\Scripts\UI\UIIrronSource\UIBanner.cs" />
+    <Compile Include="Assets\devtodev\Window\DTDEditorModel.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\Pay.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsShareManager.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsTournamentsManager.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceInterstitialEvents.cs" />
+    <Compile Include="Assets\IronSource\Scripts\AdFormat.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Prefabs\ProductRowPrefab.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\AppEvents.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceInterstitialLevelPlayAndroid.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -521,23 +521,23 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.28f1-x86_64\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="XInputDotNetPure">
       <HintPath>Assets\FacebookSDK\Plugins\Windows\XInputDotNetPure.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.TaskExtension">
       <HintPath>Assets\Firebase\Plugins\Firebase.TaskExtension.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="devtodev_cross">
       <HintPath>Assets\Plugins\Standalone\devtodev_cross.dll</HintPath>
     </Reference>
     <Reference Include="LibFBGManaged">
       <HintPath>Assets\FacebookSDK\Plugins\Windows\LibFBGManaged.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Facebook.Unity.Settings">
       <HintPath>Assets\FacebookSDK\Plugins\Settings\Facebook.Unity.Settings.dll</HintPath>

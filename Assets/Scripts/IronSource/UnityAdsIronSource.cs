@@ -19,10 +19,32 @@ public class UnityAdsIronSource : MonoBehaviour
     {
         IronSourceEvents.onSdkInitializationCompletedEvent += SdkInitializationCompletedEvent;
 
-        CallBackEventBanner();
-        CallBackEventInterstitial();
-        CallBackEventRewardVideo();
-        
+        //Add AdInfo Banner Events
+        IronSourceBannerEvents.onAdLoadedEvent += BannerOnAdLoadedEvent;
+        IronSourceBannerEvents.onAdLoadFailedEvent += BannerOnAdLoadFailedEvent;
+        IronSourceBannerEvents.onAdClickedEvent += BannerOnAdClickedEvent;
+        IronSourceBannerEvents.onAdScreenPresentedEvent += BannerOnAdScreenPresentedEvent;
+        IronSourceBannerEvents.onAdScreenDismissedEvent += BannerOnAdScreenDismissedEvent;
+        IronSourceBannerEvents.onAdLeftApplicationEvent += BannerOnAdLeftApplicationEvent;
+
+        //Add AdInfo Interstitial Events
+        IronSourceInterstitialEvents.onAdReadyEvent += InterstitialOnAdReadyEvent;
+        IronSourceInterstitialEvents.onAdLoadFailedEvent += InterstitialOnAdLoadFailed;
+        IronSourceInterstitialEvents.onAdOpenedEvent += InterstitialOnAdOpenedEvent;
+        IronSourceInterstitialEvents.onAdClickedEvent += InterstitialOnAdClickedEvent;
+        IronSourceInterstitialEvents.onAdShowSucceededEvent += InterstitialOnAdShowSucceededEvent;
+        IronSourceInterstitialEvents.onAdShowFailedEvent += InterstitialOnAdShowFailedEvent;
+        IronSourceInterstitialEvents.onAdClosedEvent += InterstitialOnAdClosedEvent;
+
+        //Add AdInfo Rewarded Video Events
+        IronSourceRewardedVideoEvents.onAdOpenedEvent += RewardedVideoOnAdOpenedEvent;
+        IronSourceRewardedVideoEvents.onAdClosedEvent += RewardedVideoOnAdClosedEvent;
+        IronSourceRewardedVideoEvents.onAdAvailableEvent += RewardedVideoOnAdAvailable;
+        IronSourceRewardedVideoEvents.onAdUnavailableEvent += RewardedVideoOnAdUnavailable;
+        IronSourceRewardedVideoEvents.onAdShowFailedEvent += RewardedVideoOnAdShowFailedEvent;
+        IronSourceRewardedVideoEvents.onAdRewardedEvent += RewardedVideoOnAdRewardedEvent;
+        IronSourceRewardedVideoEvents.onAdClickedEvent += RewardedVideoOnAdClickedEvent;
+
     }
     void OnApplicationPause(bool isPaused)
     {
@@ -60,17 +82,6 @@ public class UnityAdsIronSource : MonoBehaviour
         IronSource.Agent.destroyBanner();
     }
 
-    //---------Banner_CallBack---------
-    public void CallBackEventBanner()
-    {
-        //Add AdInfo Banner Events
-        IronSourceBannerEvents.onAdLoadedEvent += BannerOnAdLoadedEvent;
-        IronSourceBannerEvents.onAdLoadFailedEvent += BannerOnAdLoadFailedEvent;
-        IronSourceBannerEvents.onAdClickedEvent += BannerOnAdClickedEvent;
-        IronSourceBannerEvents.onAdScreenPresentedEvent += BannerOnAdScreenPresentedEvent;
-        IronSourceBannerEvents.onAdScreenDismissedEvent += BannerOnAdScreenDismissedEvent;
-        IronSourceBannerEvents.onAdLeftApplicationEvent += BannerOnAdLeftApplicationEvent;
-    }
 
     /************* Banner AdInfo Delegates *************/
     //Invoked once the banner has loaded
@@ -116,18 +127,6 @@ public class UnityAdsIronSource : MonoBehaviour
         }
     }
 
-    //---------Interstitial_CallBack---------
-    public void CallBackEventInterstitial()
-    {
-        //Add AdInfo Interstitial Events
-        IronSourceInterstitialEvents.onAdReadyEvent += InterstitialOnAdReadyEvent;
-        IronSourceInterstitialEvents.onAdLoadFailedEvent += InterstitialOnAdLoadFailed;
-        IronSourceInterstitialEvents.onAdOpenedEvent += InterstitialOnAdOpenedEvent;
-        IronSourceInterstitialEvents.onAdClickedEvent += InterstitialOnAdClickedEvent;
-        IronSourceInterstitialEvents.onAdShowSucceededEvent += InterstitialOnAdShowSucceededEvent;
-        IronSourceInterstitialEvents.onAdShowFailedEvent += InterstitialOnAdShowFailedEvent;
-        IronSourceInterstitialEvents.onAdClosedEvent += InterstitialOnAdClosedEvent;
-    }
     /************* Interstitial AdInfo Delegates *************/
     // Invoked when the interstitial ad was loaded succesfully.
     void InterstitialOnAdReadyEvent(IronSourceAdInfo adInfo)
@@ -171,18 +170,6 @@ public class UnityAdsIronSource : MonoBehaviour
     }
 
 
-    //---------RewardVideo_CallBack---------
-    public void CallBackEventRewardVideo()
-    {
-        //Add AdInfo Rewarded Video Events
-        IronSourceRewardedVideoEvents.onAdOpenedEvent += RewardedVideoOnAdOpenedEvent;
-        IronSourceRewardedVideoEvents.onAdClosedEvent += RewardedVideoOnAdClosedEvent;
-        IronSourceRewardedVideoEvents.onAdAvailableEvent += RewardedVideoOnAdAvailable;
-        IronSourceRewardedVideoEvents.onAdUnavailableEvent += RewardedVideoOnAdUnavailable;
-        IronSourceRewardedVideoEvents.onAdShowFailedEvent += RewardedVideoOnAdShowFailedEvent;
-        IronSourceRewardedVideoEvents.onAdRewardedEvent += RewardedVideoOnAdRewardedEvent;
-        IronSourceRewardedVideoEvents.onAdClickedEvent += RewardedVideoOnAdClickedEvent;
-    }
 
     /************* RewardedVideo AdInfo Delegates *************/
     // Indicates that there’s an available ad.
