@@ -121,7 +121,7 @@ public class FireBaseManager : MonoBehaviour
             User = LoginTask.Result.User;
             Debug.LogFormat("User signed in successfully: {0} ({1})", User.DisplayName, User.Email);
             _gameManager._uIManager._uILogin.Notice("Logged In", false);
-            //StartCoroutine(LoadUserData());
+            StartCoroutine(LoadUserData());
 
             yield return new WaitForSeconds(2);
 
